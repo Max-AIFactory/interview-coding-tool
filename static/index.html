@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QDA Tool — TIS Interview Coding</title>
+<link rel="stylesheet" href="/static/app.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<nav id="nav">
+  <a class="brand" href="#/dashboard">QDA · TIS coding</a>
+  <a href="#/dashboard" data-view="dashboard">Dashboard</a>
+  <a href="#/import" data-view="import">Import</a>
+  <a href="#/coding" data-view="coding">Coding</a>
+  <a href="#/codebook" data-view="codebook">Codebook</a>
+  <a href="#/retrieval" data-view="retrieval">Retrieval</a>
+  <a href="#/analysis" data-view="analysis">Analysis</a>
+  <a href="#/reliability" data-view="reliability">Reliability</a>
+  <a href="#/export" data-view="export">Export</a>
+  <a href="#/readable" data-view="readable">Readable reports</a>
+  <a href="#/settings" data-view="settings">Settings</a>
+  <span class="spacer"></span>
+  <span id="pilot-badge" class="badge pilot hidden" title="Pilot phase: codebook changes are logged with phase = pilot">PILOT PHASE</span>
+  <button id="btn-undo" class="btn small" title="Undo (Ctrl+Z)">↶ Undo</button>
+  <button id="btn-redo" class="btn small" title="Redo (Ctrl+Y)">↷ Redo</button>
+  <span id="sync" class="sync" title="Live refresh: polling project revision every 2 s">●</span>
+</nav>
+<main id="main"></main>
+<div id="toasts"></div>
+<div id="modal-root"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

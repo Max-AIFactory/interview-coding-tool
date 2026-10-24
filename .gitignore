@@ -1,0 +1,13 @@
+# Project data: never commit interviews, codings, backups, exports or logs
+data/
+backups/
+exports/
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/

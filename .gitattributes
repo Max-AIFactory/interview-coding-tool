@@ -1,0 +1,2 @@
+# The fixture is deliberately BOM + CRLF encoded; keep its bytes unchanged on every platform.
+tests/fixtures/DE-77.md -text
